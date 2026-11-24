@@ -1,18 +1,135 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080808">
-<meta name="description" content="VIMAX CREATIVE — Ideas Into Visuals. Cinematic video production, photography, reels and brand promotion in Bengaluru.">
-<title>VIMAX CREATIVE | Ideas Into Visuals</title>
-<style>
-:root{--bg:#080808;--gold:#d3aa58;--pale:#f2d995;--white:#f7f3ea;--muted:#aaa49a;--line:#4b3b20}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:Arial,sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1160px,90%);margin:auto}header{position:sticky;top:0;z-index:9;background:#080808ed;border-bottom:1px solid #332817;backdrop-filter:blur(12px)}.nav{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px}.brand img{width:58px;height:58px;object-fit:contain}.brand strong{font:18px Georgia;letter-spacing:2px;color:var(--pale)}.brand small{display:block;font:9px Arial;letter-spacing:3px;color:#aaa}nav{display:flex;gap:25px;font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:#ddd}nav a:hover{color:var(--pale)}.btn{display:inline-block;padding:13px 22px;border:1px solid var(--gold);color:var(--pale);font-size:11px;letter-spacing:1.5px;text-transform:uppercase}.btn.gold{background:var(--gold);color:#111;font-weight:bold}.hero{min-height:650px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 48%,#9b762b30,transparent 36%),linear-gradient(110deg,#080808,#17140e)}.hero:after{content:"";position:absolute;right:-130px;top:45px;width:560px;height:560px;border:1px solid #d3aa5840;border-radius:50%;box-shadow:0 0 0 55px #d3aa5809,0 0 0 110px #d3aa5806}.hero-in{position:relative;z-index:1;max-width:760px;padding:85px 0}.kicker{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}h1{font:clamp(48px,8vw,94px)/.98 Georgia,serif;font-weight:400;letter-spacing:-2px;margin:22px 0}h1 em{color:var(--pale)}.hero p,.intro{color:var(--muted);max-width:590px}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}section{padding:88px 0}h2{font:clamp(35px,5vw,55px)/1.1 Georgia,serif;font-weight:400;margin:12px 0 20px}.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.logo-card{border:1px solid var(--line);padding:24px;background:linear-gradient(145deg,#17140e,#0b0b0b);text-align:center}.logo-card img{width:min(100%,360px);display:block;margin:auto}.logo-card p{color:var(--pale);font:italic 22px Georgia}.services{background:#101010}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:35px}.card{padding:27px;border:1px solid #302719;background:linear-gradient(145deg,#181818,#0c0c0c);min-height:200px}.num{font:25px Georgia;color:var(--gold)}.card h3{font:24px Georgia;font-weight:400;margin:15px 0 7px}.card p,.step p{font-size:13px;color:var(--muted);margin:0}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:32px}.step{border-top:1px solid var(--gold);padding-top:16px}.step b{font:26px Georgia;color:var(--gold)}.step h3{font:20px Georgia;font-weight:400}.contact{text-align:center;background:linear-gradient(110deg,#17140e,#0a0a0a);border-block:1px solid var(--line)}.contact p{color:var(--muted);max-width:580px;margin:0 auto 28px}.social{margin-top:20px;color:var(--pale);font-size:13px}footer{padding:30px 0;color:#999;font-size:12px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot a{color:var(--pale);margin-left:15px}.wa{position:fixed;right:20px;bottom:20px;z-index:8;background:#159957;color:white;border-radius:40px;padding:12px 18px;font-size:12px}@media(max-width:760px){nav{display:none}.about{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.hero{min-height:590px}.hero:after{right:-330px}}@media(max-width:480px){.cards,.steps{grid-template-columns:1fr}.brand img{width:48px;height:48px}.brand strong{font-size:15px}}
-</style></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1b">
+  <meta name="description" content="VIMAX CREATIVES — Graphic design and digital marketing that helps brands stand out, connect and grow.">
+  <title>VIMAX CREATIVES | Design • Digital • Growth</title>
+  <style>
+    :root{--bg:#080d1b;--panel:#10182b;--panel2:#141f36;--text:#f6f8ff;--muted:#aab5ca;--cyan:#65e4f2;--violet:#9b83ff;--line:rgba(255,255,255,.12);--max:1160px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+    .nav{position:sticky;top:0;z-index:10;background:rgba(8,13,27,.86);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+    .navin{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:850;letter-spacing:.09em}.brand img{width:43px;height:43px;object-fit:contain;border-radius:12px;background:#fff}
+    .brand span{font-size:15px}.brand small{display:block;font-size:9px;color:var(--muted);letter-spacing:.24em;font-weight:650}
+    .links{display:flex;align-items:center;gap:27px;color:#d5dced;font-size:13px}.links a:hover{color:var(--cyan)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:999px;background:linear-gradient(100deg,var(--cyan),#9c9aff);color:#08101d;font-weight:800;font-size:13px;box-shadow:0 10px 35px rgba(101,228,242,.15);transition:.2s}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 14px 38px rgba(101,228,242,.25)}.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line);box-shadow:none}
+    .hero{position:relative;overflow:hidden;padding:100px 0 92px;background:radial-gradient(ellipse at 78% 20%,rgba(105,91,255,.22),transparent 34%),radial-gradient(ellipse at 10% 80%,rgba(45,202,222,.12),transparent 32%)}
+    .hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(101,228,242,.12);border-radius:50%;right:-160px;bottom:-250px;box-shadow:0 0 0 45px rgba(101,228,242,.025),0 0 0 90px rgba(101,228,242,.02);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:55px;position:relative;z-index:1}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--cyan);font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
+    .dot{width:7px;height:7px;background:var(--cyan);border-radius:50%;box-shadow:0 0 14px var(--cyan)}
+    h1{font-size:clamp(44px,6vw,76px);line-height:1.02;letter-spacing:-.055em;margin:20px 0 22px;max-width:720px}
+    h1 em{font-style:normal;background:linear-gradient(95deg,var(--cyan),#b0a1ff);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{font-size:17px;color:var(--muted);max-width:580px;margin:0 0 30px}.actions{display:flex;gap:13px;flex-wrap:wrap}
+    .hero-art{min-height:390px;display:grid;place-items:center;position:relative}
+    .orb{width:min(340px,80vw);aspect-ratio:1;border-radius:35%;background:linear-gradient(145deg,rgba(101,228,242,.17),rgba(155,131,255,.2));border:1px solid rgba(255,255,255,.2);box-shadow:inset 0 0 70px rgba(255,255,255,.06),0 35px 100px rgba(0,0,0,.35);transform:rotate(-9deg);display:grid;place-items:center;position:relative}
+    .orb:before,.orb:after{content:"";position:absolute;inset:22px;border:1px solid rgba(255,255,255,.17);border-radius:32%;transform:rotate(22deg)}.orb:after{inset:52px;transform:rotate(48deg)}
+    .orbtext{transform:rotate(9deg);text-align:center;z-index:1}.orbtext strong{display:block;font-size:55px;letter-spacing:-.08em;line-height:1}.orbtext span{font-size:11px;letter-spacing:.35em;color:var(--cyan);font-weight:800}
+    .float{position:absolute;padding:13px 17px;background:rgba(16,24,43,.9);border:1px solid var(--line);border-radius:15px;box-shadow:0 15px 40px #0005;font-size:12px;font-weight:750}.float.one{top:42px;left:0}.float.two{bottom:42px;right:0}
+    section{padding:86px 0}.section-head{max-width:680px;margin-bottom:38px}.kicker{color:var(--cyan);font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:850}.section-head h2{font-size:clamp(31px,4vw,46px);letter-spacing:-.04em;line-height:1.1;margin:12px 0}.section-head p{color:var(--muted);margin:0}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,var(--panel),#0d1425);border:1px solid var(--line);border-radius:21px;padding:27px;min-height:230px;transition:.2s}.card:hover{transform:translateY(-5px);border-color:rgba(101,228,242,.45)}
+    .ico{width:45px;height:45px;display:grid;place-items:center;border-radius:14px;background:rgba(101,228,242,.1);color:var(--cyan);font-size:21px;margin-bottom:23px}.card h3{font-size:19px;margin:0 0 9px}.card p{font-size:14px;color:var(--muted);margin:0}
+    .about{background:linear-gradient(120deg,rgba(101,228,242,.07),rgba(155,131,255,.08));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .aboutgrid{display:grid;grid-template-columns:.85fr 1.15fr;gap:65px;align-items:center}.aboutbox{border:1px solid var(--line);border-radius:25px;padding:34px;background:linear-gradient(145deg,#15233a,#10172a);min-height:270px;display:flex;flex-direction:column;justify-content:space-between}
+    .aboutbox strong{font-size:48px;letter-spacing:-.06em;line-height:1.05}.aboutbox span{color:var(--cyan);font-size:12px;letter-spacing:.18em;font-weight:800}.aboutcopy h2{font-size:clamp(30px,4vw,43px);line-height:1.1;letter-spacing:-.04em;margin:12px 0 18px}.aboutcopy p{color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.step{padding:23px 0;border-top:1px solid var(--line)}.num{font-size:12px;color:var(--cyan);font-weight:850;letter-spacing:.15em}.step h3{margin:10px 0 6px}.step p{color:var(--muted);font-size:14px;margin:0}
+    .cta{padding:70px 0}.ctabox{padding:54px;border-radius:27px;text-align:center;background:radial-gradient(circle at 15% 0%,rgba(101,228,242,.18),transparent 40%),linear-gradient(120deg,#17233b,#171a36);border:1px solid var(--line)}.ctabox h2{font-size:clamp(30px,4vw,46px);line-height:1.1;letter-spacing:-.04em;margin:12px auto;max-width:700px}.ctabox p{color:var(--muted);margin:0 auto 25px;max-width:600px}
+    footer{border-top:1px solid var(--line);padding:27px 0;color:var(--muted);font-size:12px}.foot{display:flex;align-items:center;justify-content:space-between;gap:15px;flex-wrap:wrap}.foot b{color:var(--text);letter-spacing:.12em}
+    .tamil{font-size:13px;color:#d0d9e9}.mobile{display:none}
+    @media(max-width:800px){.links{display:none}.mobile{display:inline-flex}.hero{padding:70px 0 55px}.hero-grid,.aboutgrid{grid-template-columns:1fr;gap:30px}.hero-art{min-height:300px}.services{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}.aboutgrid{gap:25px}section{padding:65px 0}}
+    @media(max-width:520px){.wrap{width:min(100% - 30px,var(--max))}.navin{height:66px}.brand span{font-size:13px}.hero-grid{gap:18px}h1{font-size:48px}.lead{font-size:15px}.hero-art{min-height:260px}.orb{width:245px}.orbtext strong{font-size:44px}.float.one{left:0;top:20px}.float.two{right:0;bottom:20px}.services{grid-template-columns:1fr}.card{min-height:auto}.ctabox{padding:35px 20px}.actions .btn{width:100%}}
+  </style>
+</head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home"><img src="vimax-logo.jpeg" alt="VIMAX CREATIVE logo"><strong>VIMAX CREATIVE<small>IDEAS INTO VISUALS</small></strong></a><nav><a href="#about">About</a><a href="#services">Services</a><a href="#process">Process</a><a href="#contact">Contact</a></nav><a class="btn" href="https://wa.me/916361949865">Let's Talk</a></div></header>
-<main id="home"><section class="hero"><div class="wrap"><div class="hero-in"><div class="kicker">Creative Studio · Bengaluru, India</div><h1>Ideas Into<br><em>Visuals.</em></h1><p>We create powerful visual stories through cinematic video production, photography, creative design and brand promotion.</p><div class="actions"><a class="btn gold" href="https://wa.me/916361949865?text=Hello%20VIMAX%20CREATIVE%2C%20I%20have%20a%20project%20enquiry.">Start a Project</a><a class="btn" href="#services">Explore Services</a></div></div></div></section>
-<section id="about"><div class="wrap about"><div><div class="kicker">Who We Are</div><h2>Creative vision.<br>Professional execution.</h2><p class="intro">VIMAX CREATIVE is a Bengaluru-based creative content and brand promotion studio. We help businesses communicate their identity through thoughtful concepts and high-quality visuals.</p><p class="intro">From the first idea to the final edit, we focus on creating content that makes people stop, watch and remember your brand.</p></div><div class="logo-card"><img src="vimax-logo.jpeg" alt="VIMAX CREATIVE brand logo"><p>Ideas Into Visuals.</p></div></div></section>
-<section class="services" id="services"><div class="wrap"><div class="kicker">What We Do</div><h2>Creative services<br>for growing brands.</h2><p class="intro">Visual content and digital creative support for businesses, cafés, restaurants, retail brands and more.</p><div class="cards"><article class="card"><div class="num">01</div><h3>Video Production</h3><p>Brand films, product videos, business videos and professional shoot production.</p></article><article class="card"><div class="num">02</div><h3>Cinematic Reels</h3><p>Short-form social videos crafted to capture attention and tell your story.</p></article><article class="card"><div class="num">03</div><h3>Photography</h3><p>Product, food, lifestyle and brand photography for digital platforms.</p></article><article class="card"><div class="num">04</div><h3>Graphic Design</h3><p>Social media creatives, promotional posters and campaign designs.</p></article><article class="card"><div class="num">05</div><h3>Social Media Content</h3><p>Content planning and creative production to support consistent posting.</p></article><article class="card"><div class="num">06</div><h3>Brand Promotion</h3><p>Promotional content that introduces your business and builds awareness.</p></article></div></div></section>
-<section id="process"><div class="wrap"><div class="kicker">How We Work</div><h2>From concept to creation.</h2><div class="steps"><div class="step"><b>01</b><h3>Discover</h3><p>Understand your brand, audience and goals.</p></div><div class="step"><b>02</b><h3>Plan</h3><p>Build the concept, creative direction and shoot plan.</p></div><div class="step"><b>03</b><h3>Create</h3><p>Shoot, design and edit with attention to detail.</p></div><div class="step"><b>04</b><h3>Deliver</h3><p>Share final content ready for your platforms.</p></div></div></div></section>
-<section class="contact" id="contact"><div class="wrap"><div class="kicker">Have a Project in Mind?</div><h2>Let's create something<br><em style="color:var(--pale)">remarkable.</em></h2><p>Tell us about your business or next campaign. Let's build visuals that make your brand stand out.</p><a class="btn gold" href="https://wa.me/916361949865?text=Hello%20VIMAX%20CREATIVE%2C%20I%20would%20like%20to%20discuss%20a%20project.">Chat on WhatsApp</a><div class="social">Bengaluru, Karnataka, India · <a href="https://www.instagram.com/vimax_creatives/" target="_blank" rel="noopener">@vimax_creatives</a></div></div></section></main>
-<footer><div class="wrap foot"><div>© <span id="year"></span> VIMAX CREATIVE. All rights reserved.</div><div><a href="https://www.instagram.com/vimax_creatives/" target="_blank" rel="noopener">Instagram</a><a href="https://wa.me/916361949865">WhatsApp</a></div></div></footer><a class="wa" href="https://wa.me/916361949865?text=Hello%20VIMAX%20CREATIVE">WhatsApp ↗</a><script>document.getElementById('year').textContent=new Date().getFullYear()</script>
-</body></html>
+  <header class="nav">
+    <div class="wrap navin">
+      <a class="brand" href="#home" aria-label="VIMAX CREATIVES home">
+        <img src="vimax-logo.jpeg" alt="VIMAX CREATIVES logo" onerror="this.style.display='none'">
+        <span>VIMAX CREATIVES<small>DESIGN · DIGITAL · GROWTH</small></span>
+      </a>
+      <nav class="links" aria-label="Main navigation">
+        <a href="#services">Services</a><a href="#about">About</a><a href="#process">Our Process</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="btn mobile" href="#contact">Let's Talk ↗</a>
+      <a class="btn" href="#contact">Start a Project ↗</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow"><i class="dot"></i> Creative ideas. Meaningful impact.</div>
+          <h1>Make your brand <em>impossible</em> to ignore.</h1>
+          <p class="lead">We bring brands to life through thoughtful graphic design and smart digital marketing. Stand out, connect with your audience, and grow with confidence.</p>
+          <p class="tamil">உங்கள் பிராண்டிற்கு தனித்துவமான வடிவமைப்பும், வளர்ச்சிக்கு உதவும் டிஜிட்டல் மார்க்கெட்டிங்கும்.</p>
+          <div class="actions" style="margin-top:24px">
+            <a class="btn" href="#contact">Let's create something ↗</a>
+            <a class="btn ghost" href="#services">Explore services ↓</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract VIMAX creative brand artwork">
+          <div class="float one">✦ Creative design</div>
+          <div class="orb"><div class="orbtext"><strong>VIMAX</strong><span>CREATIVES</span></div></div>
+          <div class="float two">↗ Digital growth</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">What we do</div><h2>Creative solutions for ambitious brands.</h2><p>From the first impression to the ongoing conversation, we help your brand show up consistently and confidently.</p></div>
+        <div class="services">
+          <article class="card"><div class="ico">✳</div><h3>Brand Identity & Design</h3><p>Logos, brand identity, business creatives and visual systems that give your business a memorable look.</p></article>
+          <article class="card"><div class="ico">▧</div><h3>Social Media Creatives</h3><p>Scroll-stopping posts, stories, banners and campaign designs made to keep your brand active and consistent.</p></article>
+          <article class="card"><div class="ico">◎</div><h3>Digital Marketing</h3><p>Practical digital marketing support to help you reach the right audience and build stronger online visibility.</p></article>
+          <article class="card"><div class="ico">▤</div><h3>Promotional Design</h3><p>Flyers, posters, brochures, ads and promotional materials that communicate your message clearly.</p></article>
+          <article class="card"><div class="ico">⌁</div><h3>Content & Campaigns</h3><p>Creative campaign concepts and content direction that make your communication more engaging.</p></article>
+          <article class="card"><div class="ico">↗</div><h3>Business Growth Support</h3><p>A creative partner for businesses looking to strengthen their brand presence across digital channels.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap aboutgrid">
+        <div class="aboutbox"><span>OUR CREATIVE MINDSET</span><strong>Think bold.<br>Design smart.<br><em style="color:var(--cyan)">Grow together.</em></strong><span>VIMAX CREATIVES</span></div>
+        <div class="aboutcopy"><div class="kicker">A little about us</div><h2>Good design gets attention. Great communication builds trust.</h2><p>VIMAX CREATIVES is a graphic design and digital marketing brand focused on helping businesses present themselves with clarity and creativity. We believe every business has a story worth sharing — our job is to help you tell it visually and digitally.</p><p class="tamil">ஒவ்வொரு வணிகத்திற்கும் ஒரு தனித்துவமான கதை உண்டு. அந்தக் கதையை அழகாகவும், சரியான மக்களிடம் சேரும் வகையிலும் வெளிப்படுத்துவதே எங்கள் நோக்கம்.</p></div>
+      </div>
+    </section>
+
+    <section id="process">
+      <div class="wrap">
+        <div class="section-head"><div class="kicker">How we work</div><h2>Simple process. Clear communication.</h2><p>A straightforward approach that keeps your project moving in the right direction.</p></div>
+        <div class="steps">
+          <div class="step"><div class="num">01 / DISCOVER</div><h3>Understand your vision</h3><p>We learn about your business, audience, goals and creative requirements.</p></div>
+          <div class="step"><div class="num">02 / CREATE</div><h3>Design with purpose</h3><p>We shape the ideas into clear, consistent and engaging creative work.</p></div>
+          <div class="step"><div class="num">03 / GROW</div><h3>Launch and improve</h3><p>We help you put your brand communication into action and plan the next step.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contact">
+      <div class="wrap">
+        <div class="ctabox">
+          <div class="kicker">Have a project in mind?</div>
+          <h2>Let's make something people remember.</h2>
+          <p>Tell us what you're building. Let's discuss the right creative direction for your brand.</p>
+          <div class="actions" style="justify-content:center">
+            <!-- Replace the placeholder number and email below with your real business contact details. -->
+            <a class="btn" href="https://wa.me/916361949865" target="_blank" rel="noopener">Chat on WhatsApp ↗</a>
+            <a class="btn ghost" href="mailto:vimaxcreatives@gmail.com">Send an email ↗</a>
+          </div>
+          <p style="font-size:11px;margin-top:18px;color:#8391aa">WhatsApp: +91 63619 49865 · Email: vimaxcreatives@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap foot"><div><b>VIMAX CREATIVES</b> <span> · Design · Digital · Growth</span></div><div>© <span id="year"></span> VIMAX CREATIVES. All rights reserved.</div></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
